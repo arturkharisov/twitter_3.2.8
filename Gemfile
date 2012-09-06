@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
+gem 'gravatar-ultimate'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -12,8 +13,10 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'guard-cucumber'
   gem 'livereload'
+  gem 'awesome_print'
 end
 
+gem 'annotate', '2.5.0', group: :development
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -35,7 +38,7 @@ group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
@@ -43,7 +46,7 @@ group :production do
 end  
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
