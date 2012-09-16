@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
 gem 'gravatar-ultimate'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
